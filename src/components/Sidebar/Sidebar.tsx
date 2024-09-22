@@ -18,7 +18,7 @@ const Sidebar: React.FC = () => {
     localStorage.setItem("activeTab", String(index));
   };
   const menu = [
-    { name: "Home", path: "/home", icon: <GoHome size={24} />, index: 1 },
+    { name: "Home", path: "/", icon: <GoHome size={24} />, index: 1 },
     {
       name: "Dashboard",
       path: "/dashboard",

@@ -1,12 +1,10 @@
 import React from 'react'
-
-const Dashboard : React.FC = () => {
+import Card from '../../components/Card'
+const Dashboard: React.FC = () => {
   return (
-    <div>
-      <h1>
-        Dashboard Page
-      </h1>
-    </div>
+
+    <Card />
+
   )
 }
 
